@@ -5,6 +5,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
     return (
@@ -19,6 +20,8 @@ function App() {
                 <Projects />
                 <Contact />
             </main>
+
+            <SpeedInsights />
         </div>
     );
 }
