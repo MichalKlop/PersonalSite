@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Outer circle (base layer) -->
+  <circle cx="16" cy="16" r="14" fill="none" stroke="#38bdf8" stroke-width="2"/>
+  
+  <!-- Equator line (middle layer) - fully opaque gold -->
+  <line x1="2" y1="16" x2="30" y2="16" stroke="#d4ab7c" stroke-width="1.5"/>
+  
+  <!-- Horizontal ellipse (latitude) -->
+  <ellipse cx="16" cy="16" rx="14" ry="7" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+  
+  <!-- Vertical ellipse (longitude, top layer) -->
+  <ellipse cx="16" cy="16" rx="7" ry="14" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+</svg>
